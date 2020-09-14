@@ -7,16 +7,19 @@
 </head>
 
 <body>
-  <button id="dog-button">Magic dog button</button>
-  <div id="images">
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript">
+    <br>
+    <button id="dog-button">Magic dog button</button>
+    <p>Keep clicking the button. A new dog GIF will be randomly selected each time and will be placed at the top of the page. Older GIFs will scroll further down the page.</p>
+    <hr>
+    <div id="images">
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
     //
     $("#dog-button").on("click", function() {
 
       //
-      var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=dogs";
+      var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=f4XGpT1rI68H2q84AK672lCSxqQ65Z2o&tag=dogs";
 
       //
       $.ajax({
